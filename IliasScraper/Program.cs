@@ -80,7 +80,7 @@ class Program
             
             string filteredtestName = Regex.Replace(testName, @"\s*\(\d+punkte\)$", "");
 
-            await page.Locator("div.ilc_question_Standard").First.ScreenshotAsync(new()
+            await page.Locator("div.ilc_question_Standard").Last.ScreenshotAsync(new()
             {
                 Path = Path.Combine(baseFolder, filteredtestName + ".png")
             });
