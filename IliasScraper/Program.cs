@@ -88,7 +88,8 @@ class Program
             await page.ClickAsync(
                 "html > body > div:nth-of-type(3) > main > div:nth-of-type(2) > div > div > div > ul > li:nth-of-type(1) > a");
         }
-        
+
+        Console.WriteLine("Done. results stored in folder:" + baseFolder);
         // Close the browser
         await browser.CloseAsync();
     }
