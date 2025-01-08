@@ -10,3 +10,4 @@ test in a folder on your desktop.
 .\IliasScraper\bin\Debug\net9.0\playwright.ps1 install
 ```
 * Run the program again, and follow the instructions in the console
+* The output files will be in the folder "%USERPROFILE%\Documents\IliasScraperResults\'TestName'"
